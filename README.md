@@ -30,7 +30,7 @@ credential=JDM82XDVMcNI^wpdW7ZQ5
 ```
 http://<TARGET>/?username=sa&credential=JDM82XDVMcNI^wpdW7ZQ5
 ```
-- [Metadata ของรูปภาพ](https://play.mooc.ncsa.or.th/lab/39)Question
+- [Metadata ของรูปภาพ](https://play.mooc.ncsa.or.th/lab/39)
 ## Question
 ให้ download รูปภาพจาก link ด้านล่าง จากนั้นทำการค้นหา key ของผู้สร้างภาพดังกล่าว โดยลักษณะการตอบคือ osint{<KEY>} เช่น osint{1234567890} เป็นต้น
 [https://drive.google.com/open?id=1Uxq2zilkf16Bq1A0SSxtH-spYSYcriQa](https://drive.google.com/open?id=1Uxq2zilkf16Bq1A0SSxtH-spYSYcriQa)
@@ -46,9 +46,21 @@ exiftool heart.jpg
 4. ตรวจสอบ twitter ของผู้สร้างภาพจะพบว่ามีการเขียน key ไว้ใน post แรก ๆ ของ twitter
 
 คำตอบคือ osint{667Y7hb$x}
+
+- [Social Engineering](https://play.mooc.ncsa.or.th/lab/40)
   
 ## Chapter 2 - Scanning
 เรียนรู้เกี่ยวกับ Scanning แบบต่าง ๆ
+
+- [เครื่องมือสำหรับการทำ OSINT](https://play.mooc.ncsa.or.th/lab/41)
+- [เก็บข้อมูลแบบเจาะลึกด้วย Scanning](https://play.mooc.ncsa.or.th/lab/42)
+- [NMAP Port Scanning](https://play.mooc.ncsa.or.th/lab/43)
+- [NMAP for Service & OS Scanning](https://play.mooc.ncsa.or.th/lab/44)
+- [Nmap NSE](https://play.mooc.ncsa.or.th/lab/45)
+- [Vulnerability Assessment](https://play.mooc.ncsa.or.th/lab/46)
+- [Web Vulnerability Assessment](https://play.mooc.ncsa.or.th/lab/47)
+- [Web Vulnerability Assessment สำหรับ CMS](https://play.mooc.ncsa.or.th/lab/48)
+- [Application Security Testing Tool](https://play.mooc.ncsa.or.th/lab/49)
 
 
 ## Chapter 3 - Linux Knowledge
