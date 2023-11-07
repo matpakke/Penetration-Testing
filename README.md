@@ -14,8 +14,9 @@ https://play.mooc.ncsa.or.th/course/2
 - [Pre-Engagement](https://play.mooc.ncsa.or.th/lab/36)
 - [Information Gathering](https://play.mooc.ncsa.or.th/lab/37)
 - [Github Hacking](https://play.mooc.ncsa.or.th/lab/38)
-
-### Solution
+## Question
+ให้ใช้วิธีการ OSINT เพื่อค้นหาข้อมูล source code ของเครื่องเป้าหมาย โดยค้นหาข้อมูลใน Github โดยใช้ keyword “supervalentine” credential
+## Solution
 1. เปิด lab ขึ้นมาจะพบว่ามี port 80 ขึ้นมา
 2. เข้าใช้งานจะพบว่าเว็บไซต์นั้นเป็น sample website โดยสามารถติดต่อผู้พัฒนาได้ที่ @supervalentine
 3. เข้า https://github.com จากนั้น search โดยใช้ keyword เป็น "supervalentine" credential แล้วเข้าไปดูในส่วนของ Code
@@ -29,7 +30,23 @@ credential=JDM82XDVMcNI^wpdW7ZQ5
 ```
 http://<TARGET>/?username=sa&credential=JDM82XDVMcNI^wpdW7ZQ5
 ```
+- [Metadata ของรูปภาพ](https://play.mooc.ncsa.or.th/lab/39)Question
+## Question
+ให้ download รูปภาพจาก link ด้านล่าง จากนั้นทำการค้นหา key ของผู้สร้างภาพดังกล่าว โดยลักษณะการตอบคือ osint{<KEY>} เช่น osint{1234567890} เป็นต้น
+[https://drive.google.com/open?id=1Uxq2zilkf16Bq1A0SSxtH-spYSYcriQa](https://drive.google.com/open?id=1Uxq2zilkf16Bq1A0SSxtH-spYSYcriQa)
+## Solution
+1. ตรวจสอบ metadata ของ file โดยใช้คำสั่ง
+```
+exiftool heart.jpg
+```
+จะพบว่า creator คือ supervalentine
 
+2. ค้นหาข้อมูลใน Twitter.com ในหน้า https://twitter.com/search-home ด้วยคำว่า supervalentine ‘la la la’ 
+3. ค้นพบ account twitter ของผู้สร้างภาพ
+4. ตรวจสอบ twitter ของผู้สร้างภาพจะพบว่ามีการเขียน key ไว้ใน post แรก ๆ ของ twitter
+
+คำตอบคือ osint{667Y7hb$x}
+  
 ## Chapter 2 - Scanning
 เรียนรู้เกี่ยวกับ Scanning แบบต่าง ๆ
 
