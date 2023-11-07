@@ -1,11 +1,11 @@
 # Penetration-Testing
 https://play.mooc.ncsa.or.th/course/2
 
-Course information
-8 chapters
-137 labs
-144 questions
-11 hours 35 minutes estimated time of completion
+## Course information
+- 8 chapters
+- 137 labs
+- 144 questions
+- 11 hours 35 minutes estimated time of completion
 
 ## Chapter 1 - Penetration Test
 เรียนรู้เกี่ยวกับ Penetration Test
@@ -26,9 +26,9 @@ username=sa
 credential=JDM82XDVMcNI^wpdW7ZQ5
 ```
 ตัวอย่าง request
-
+```
 http://<TARGET>/?username=sa&credential=JDM82XDVMcNI^wpdW7ZQ5
-
+```
 
 ## Chapter 2 - Scanning
 เรียนรู้เกี่ยวกับ Scanning แบบต่าง ๆ
